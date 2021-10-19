@@ -1,4 +1,63 @@
-@use 'var'
+$white: #f9f9f9
+$black: #1a1a1a
 
+$cont-width: 900px
+
+h1,h2,h3
+	margin: 0
+	font-weight: 400
+
+h1
+	font-size: 2.5em
+	font-weight: 100
+
+h2
+	font-size: 2em
+
+
+h3
+	font-size: 1.5em
+	font-weight: 500
+
+html, body
+	margin: 0
+	padding: 0
+	overflow-x: hidden
+	
 body
-	background: $p_white
+	background: $white
+	color: $black
+	font: 400 18px/1.1em 'Work Sans', sans-serif
+
+.cont
+	width: $cont-width
+	max-width: calc(100% - 40px)
+	margin: 0 auto
+
+#hero
+	height: 50vh
+	background: $black
+	color: $white
+	display: flex
+	align-items: center
+	justify-content: center
+	text-align: center
+	flex-direction: column
+
+#github
+	position: absolute
+	top: 20px
+	right: 20px
+	width: 30px
+	height: 30px
+	img
+		width: 100%
+		height: 100%
+
+.card
+	margin: 5vh 0
+	img
+		height: 300px
+		width: 100%
+		object-fit: cover
+		object-position: top
