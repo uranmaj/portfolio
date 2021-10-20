@@ -15,7 +15,8 @@ h2 {
 h3 {
   font-size: 1.5em;
   font-weight: 500;
-  margin-bottom: 0.5em;
+  margin-bottom: 30px;
+  line-height: 1.3em;
 }
 
 a {
@@ -83,6 +84,7 @@ body {
 .card .card__image-wrapper {
   width: 100%;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 .card .card__image-wrapper img {
   display: block;
