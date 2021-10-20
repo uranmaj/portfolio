@@ -61,10 +61,6 @@ body {
   width: 30px;
   height: 30px;
 }
-#github img {
-  width: 100%;
-  height: 100%;
-}
 
 #home {
   position: absolute;
@@ -75,11 +71,37 @@ body {
   color: white;
 }
 
+.btn {
+  background: #1a1a1a;
+  color: #f9f9f9;
+  padding: 10px 20px;
+  line-height: 1em;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background: transparent;
+  color: #1a1a1a;
+}
+
+.skills:not(:last-child) {
+  margin-bottom: 30px;
+}
+.skills img {
+  opacity: 0.9;
+  margin-right: 7.5px;
+}
+
 .card {
+  position: relative;
   margin: 10vh 0;
   background: white;
   box-shadow: 0 2px 5px 0 rgba(32, 33, 36, 0.05), 0 19px 38px 0 rgba(32, 33, 36, 0.04);
   padding: 40px 30px;
+}
+.card .btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 .card .card__image-wrapper {
   width: 100%;
@@ -101,4 +123,7 @@ body {
 }
 .card p {
   margin: 0;
+}
+.card p:not(:last-child) {
+  margin-bottom: 30px;
 }
