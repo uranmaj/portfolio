@@ -10,6 +10,9 @@ h1 {
 
 h2 {
   font-size: 2em;
+  font-weight: 500;
+  margin-top: 10vh;
+  line-height: 1.3em;
 }
 
 h3 {
@@ -17,6 +20,11 @@ h3 {
   font-weight: 300;
   margin-bottom: 30px;
   line-height: 1.3em;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1em;
 }
 
 a {
@@ -33,7 +41,7 @@ html, body {
 body {
   background: #f9f9f9;
   color: #1a1a1a;
-  font: 400 18px/1.1em "Work Sans", sans-serif;
+  font: 400 18px/1.2em "Work Sans", sans-serif;
 }
 
 .cont {
@@ -57,6 +65,9 @@ body {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+}
+#hero p {
+  margin-top: 1em;
 }
 
 #github {
@@ -131,4 +142,33 @@ body {
 }
 .card p:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.image-wrapper {
+  box-shadow: 0 2px 5px 0 rgba(32, 33, 36, 0.05), 0 19px 38px 0 rgba(32, 33, 36, 0.04);
+  width: 100%;
+}
+.image-wrapper:last-child {
+  margin-bottom: 10vh;
+}
+.image-wrapper img {
+  display: block;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.disclaimer {
+  width: 300px;
+  margin-bottom: 0;
+  margin-top: 1em;
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.description {
+  margin-top: 1em;
+  font-weight: 600;
 }
