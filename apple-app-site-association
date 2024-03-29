@@ -1,15 +1,16 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "com.example.indocTest",
-        "components": [
-          {
-            "/": "*"
-          }
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "com.example.indocTest"
+                ],
+                "components": [
+                    {
+                        "/": "*"
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  }
+    }
 }
